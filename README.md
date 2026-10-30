@@ -73,3 +73,5 @@ La **forêt aléatoire**. Elle a le meilleur F1 sur la validation (0,976) **et**
 ├── models/model.joblib     (+ metriques.json)
 └── figures/                (matrices de confusion)
 ```
+
+Lancement rapide : python src/train.py puis python src/predict.py 
