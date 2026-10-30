@@ -1,0 +1,49 @@
+{
+  "modele_retenu": "Forêt aléatoire",
+  "resultats": {
+    "Régression logistique": {
+      "f1": 0.9202,
+      "rappel": 0.8982,
+      "precision": 0.9434,
+      "f1_cv_moyen": 0.8963,
+      "f1_cv_ecart_type": 0.0228,
+      "vrais_negatifs": 424,
+      "faux_positifs": 9,
+      "faux_negatifs": 17,
+      "vrais_positifs": 150
+    },
+    "Arbre de décision": {
+      "f1": 0.9429,
+      "rappel": 0.9401,
+      "precision": 0.9458,
+      "f1_cv_moyen": 0.9276,
+      "f1_cv_ecart_type": 0.0132,
+      "vrais_negatifs": 424,
+      "faux_positifs": 9,
+      "faux_negatifs": 10,
+      "vrais_positifs": 157
+    },
+    "Forêt aléatoire": {
+      "f1": 0.976,
+      "rappel": 0.976,
+      "precision": 0.976,
+      "f1_cv_moyen": 0.958,
+      "f1_cv_ecart_type": 0.0113,
+      "vrais_negatifs": 429,
+      "faux_positifs": 4,
+      "faux_negatifs": 4,
+      "vrais_positifs": 163
+    },
+    "Gradient Boosting": {
+      "f1": 0.973,
+      "rappel": 0.9701,
+      "precision": 0.9759,
+      "f1_cv_moyen": 0.953,
+      "f1_cv_ecart_type": 0.0074,
+      "vrais_negatifs": 429,
+      "faux_positifs": 4,
+      "faux_negatifs": 5,
+      "vrais_positifs": 162
+    }
+  }
+}
